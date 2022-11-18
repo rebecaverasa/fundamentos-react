@@ -8,7 +8,7 @@ import Card from "./components/layout/Card.jsx";
 
 export default (props) => (
   <div className="App"> 
-    <Card titulo="Componente com filhos">
+    <Card titulo="#03 - Componente com filhos">
       <ComFilhos>
         <ul>
           <li>Ana</li>
@@ -19,11 +19,11 @@ export default (props) => (
       </ComFilhos>
     </Card>
 
-    <Card titulo="Componente com parametro">
+    <Card titulo="#02 - Componente com parametro">
       <ComParametro titulo="Esse eh o titulo" subtitulo="Esse eh o subtitulo"/>
     </Card>
     
-      <Card titulo="Primeiro Componente">
+      <Card titulo="#01 - Primeiro Componente">
         <Primeiro />
     </Card>
   </div>
